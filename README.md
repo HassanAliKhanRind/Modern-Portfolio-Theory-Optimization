@@ -1,4 +1,4 @@
-Modern Portfolio Theory Optimization
+# Modern Portfolio Theory Optimization
 
 A Python simulation to find the optimal investment mix of Stocks, Crypto, and Bonds for maximum risk-adjusted returns.
 
