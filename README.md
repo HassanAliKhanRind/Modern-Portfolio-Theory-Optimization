@@ -1,83 +1,23 @@
-# Modern-Portfolio-Theory-Optimization
-📌 Project Overview
+Modern Portfolio Theory Optimization
 
-This project applies Modern Portfolio Theory (MPT) to construct and analyze optimal portfolios using real stock market data.
-By simulating thousands of random portfolios, the project identifies the Minimum Variance Portfolio, Maximum Sharpe Ratio Portfolio, and visualizes the Efficient Frontier.
+A Python simulation to find the optimal investment mix of Stocks, Crypto, and Bonds for maximum risk-adjusted returns.
 
-The analysis helps investors understand the risk–return tradeoff and make data-driven portfolio allocation decisions.
+Overview
 
-🎯 Objectives
+Based on Harry Markowitz's Modern Portfolio Theory, this project:
 
-Generate and evaluate 5,000 random portfolios
-
-Calculate annualized return and volatility
-
-Identify optimal portfolios based on:
-
-Minimum risk
-
-Maximum risk-adjusted return (Sharpe Ratio)
-
-Visualize the Efficient Frontier
-
-🛠 Tech Stack
-
+Simulates thousands of random portfolio weight combinations across asset classes
+Calculates expected return, volatility, and Sharpe ratio for each combination
+Plots the resulting Efficient Frontier and identifies the portfolio with the maximum Sharpe ratio (optimal risk-adjusted return)
+Tools Used
 Python
+NumPy, Pandas
+Matplotlib (Efficient Frontier visualization)
+Jupyter Notebook
+How to Run
 
-NumPy
+Open the notebook in Jupyter and run all cells. Update the asset list and historical price data to test different portfolios.
 
-Pandas
+Why This Matters
 
-yFinance
-
-Matplotlib
-
-Quantitative Portfolio Theory
-
-📊 Portfolio Details
-
-Assets: AAPL, MSFT, GOOGL
-
-Data Source: Yahoo Finance
-
-Start Date: 2022-01-01
-
-Returns: Daily returns, annualized
-
-Risk-Free Rate: Assumed 0 (for Sharpe Ratio)
-
-📐 Financial Concepts Used
-
-Modern Portfolio Theory (Markowitz)
-
-Expected Return
-
-Covariance Matrix
-
-Portfolio Volatility
-
-Sharpe Ratio
-
-Efficient Frontier
-
-▶ How the Model Works
-
-Download historical stock prices
-
-Compute daily returns
-
-Estimate mean returns and covariance matrix
-
-Randomly generate portfolio weights
-
-Calculate:
-
-Annualized Return
-
-Annualized Risk (Volatility)
-
-Sharpe Ratio
-
-Identify optimal portfolios
-
-Plot risk–return space and efficient frontier
+MPT is the basis for asset allocation decisions across the industry — from retail robo-advisors to institutional portfolio construction — by quantifying the tradeoff between risk and return.
